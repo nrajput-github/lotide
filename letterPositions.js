@@ -1,3 +1,4 @@
+/*
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
@@ -18,6 +19,7 @@ const assertArraysEqual = function(actual, expected) {
     console.log("Assertion Failed: " + actual + " !== " + expected);
   }
 };
+*/
 
 const letterPositions = function(sentence) {
   const results = {};
@@ -32,7 +34,7 @@ const letterPositions = function(sentence) {
   
   return results;
 };
+module.exports = letterPositions;
 
 
-
-assertArraysEqual(letterPositions("hello").l, [2,3]);
+//assertArraysEqual(letterPositions("hello").l, [2,3]);
